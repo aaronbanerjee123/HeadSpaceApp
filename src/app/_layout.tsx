@@ -5,6 +5,8 @@ export default function RootLayout() {
   return (
     <Stack >
       <Stack.Screen name="index" options={{title:'Meditations', headerTitleAlign:'center'}}  />
+      <Stack.Screen name="meditation/[id]" options={{headerShown:false, animation:'slide_from_bottom'}}  />
+
     </Stack>
   );
 }
