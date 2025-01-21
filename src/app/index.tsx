@@ -7,7 +7,7 @@ import MeditationListItem from "./components/MeditationListItem";
 export default function HomeScreen() {
   return (
     <FlatList
-      contentContainerClassName="gap-5 p-3"
+      contentContainerClassName="gap-8 p-3"
       className="bg-white"
       data={meditations}
       renderItem={({ item }) => <MeditationListItem meditation={item} />}
